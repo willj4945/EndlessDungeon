@@ -1,3 +1,18 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿namespace Endless_Dungeon
+{
+    class Program
+    {
+        public static Player CurrentPlayer = new Player();
+        static void Main(String[] args)
+        {
+            Start();
+        }
 
-Console.WriteLine("Hello, World!");
+        static void Start()
+        {
+            Console.WriteLine("Welcome to Endless Dungeon");
+            Console.WriteLine("Enter player name: ");
+            CurrentPlayer.Name = Console.ReadLine();
+        }
+    }
+}
