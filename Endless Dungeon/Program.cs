@@ -20,6 +20,10 @@
                 $"the north of the kingdom. You set on the path to defeat him and walk into a dark forest. As you enter " +
                 $"the forest you see that it is getting lighter outside. Day is breaking. It's been a long time since " +
                 $"you've slept. You could rest for a few minutes, and then continue on your path...");
+            
+           
+            
+            
         }
     }
 }
